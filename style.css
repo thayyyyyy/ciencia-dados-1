@@ -16,11 +16,12 @@ body {
 header {
     background-color: var(--primary-color);
     text-align: center;
+    padding: 1px;
 }
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
-     font-weight: 700;
+    font-weight: 700;
 }
 
 nav {
@@ -29,9 +30,13 @@ nav {
     font-weight: 400;
 }
 
-/* código omitido */
-
 nav a {
     text-decoration: none;
     color: var(--bg-color);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
