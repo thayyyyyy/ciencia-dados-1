@@ -36,9 +36,9 @@ nav a {
     margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
 }
-
+/**/
 nav a:hover {
-    text-decoration: underline;
-    transform: scale(0.90);
-    transition: trasform 0.1s;
+    text-decoration: underline;/*sublinhado*/
+    transform: scale(0.90);/*aumentar a fonte ao passar o mouse*/
+    transition: trasform 0.1s;/*alterar o tempo da animação*/
 }
