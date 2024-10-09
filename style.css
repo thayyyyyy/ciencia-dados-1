@@ -27,22 +27,22 @@ h1 {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
+    display: flex;/*para posicionar os elementos de forma melhor*/
+    justify-content: center;/*para alinhar no centro da página*/
+    font-weight: 400;/*fonte fina*/
 }
 
 nav a {
     text-decoration: none;
     color: var(--bg-color);
-    margin: 0 2rem 1rem 0rem;
-    font-size: 1.2rem;
+    margin: 0 2rem 1rem 0rem;/* A margem terá 0rem à esquerda, 2rem acima, 1rem à direita e 0rem abaixo.*/
+    font-size: 1.2rem;/* para aumentar um pouco o tamanho da fonte dos links*/
 }
 /**/
 nav a:hover {
-    text-decoration: underline;/*sublinhado*/
+    text-decoration: underline;/*para aparecer o sublinhado*/
     transform: scale(0.90);/*diminuir a fonte ao passar o mouse*/
-    transition: trasform 0.1s;/*alterar o tempo da animação*/
+    transition: trasform 0.1s;/*fará a animação acontecer um pouco mais devagar*/
 }
 
 footer {
