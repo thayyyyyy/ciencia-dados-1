@@ -46,6 +46,10 @@ nav a:hover {
     transition: trasform 0.1s;/*fará a animação acontecer um pouco mais devagar*/
 }
 
+.graficos-container {
+    margin: 5rem;
+   }
+
 footer {
     display: flex;
     align-items: center;
