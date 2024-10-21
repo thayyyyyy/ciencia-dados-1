@@ -1,15 +1,16 @@
+//variável para guardar a URL da base de dados
 
-const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json';
+const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
+//função assíncrona( ao fazer uma requisição para a API, o JavaScript espera ela ser concluída.)
+async function visualizarInformacoesGlobais() {  //essa função não terá parâmetros.
 
-async function visualizarInformacoesGlobais() {
+        const res = await fetch(url) //palavra  await, para esperar a requisição ser finalizada e fetch() para passar a url.
 
-        const res = await fetch(url)
+        const dados = await res.json()  //variável para guardar a resposta recebida.
 
-        const dados = await res.json()
-
-        console.log(dados);
+        console.log(dados);   //para visualizar os dados
 
     }
 
-    visualizarInformacoesGlobais()
+    visualizarInformacoesGlobais()  //invocar a função
