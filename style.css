@@ -59,8 +59,8 @@ nav a:hover {
 
   span {
     font-weight: bold;
-    color: var(--secondary-color);
-   }
+    color: var(--secundary-color);
+    }
 
 footer {
     display: flex;
